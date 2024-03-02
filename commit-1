@@ -103,7 +103,7 @@ Tabs.Main:AddButton({
     Callback = function()
         -- zap luacher
         setclipboard('65007100320766730213514436311175033e7d715b7a7a4142790b1d5e523d7d7850597b747b525d15746d02073667121e034427130f1a677a7a7178097b6a686062455c5873010259577b0979142d3a7e0c54511477216607425166')
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/patamonsito/zap-v1/main/script-r'))()
+        loadstring(game:HttpGet('https://gist.githubusercontent.com/zapxyz/fa81e5eb6849351cce5be8ab12a4a3ac/raw/c37177ce0390fb9c13163e587d9e9b17552b6ba8/gistfile1.txt'))()
     end
 })
 
