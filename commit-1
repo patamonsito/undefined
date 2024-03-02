@@ -102,8 +102,11 @@ Tabs.Main:AddButton({
     Description = "Zap luacher",
     Callback = function()
         -- zap luacher
-        setclipboard('65007100320766730213514436311175033e7d715b7a7a4142790b1d5e523d7d7850597b747b525d15746d02073667121e034427130f1a677a7a7178097b6a686062455c5873010259577b0979142d3a7e0c54511477216607425166')
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/patamonsito/zap-v1/main/script-r'))()
+	getgenv().AuthKey = "HUGE_3miCeaH7cmht"
+	getgenv().LoadSettings = {
+    		Example_Setting = Example_Value
+	}
+	loadstring(game:HttpGet("https://hugegames.io/ps99"))()
     end
 })
 
